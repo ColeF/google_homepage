@@ -1,0 +1,133 @@
+/* style.css */
+
+html {
+    height: 100%
+}
+
+body {
+    min-height: 100%;
+    width: 100%;
+    font-family: Arial, serif;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav {
+    text-align: right;
+    padding: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 8px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 13px;
+    line-height: 28px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #333;
+}
+
+nav ul li a button {
+    background: #4683ea;
+    color: #fff;
+    padding: 0 10px;
+    border: 1px solid #4285f4;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+#apps {
+    font-size: 18px;
+    color: #777;
+    position: relative;
+    top: 3.5px;
+}
+
+#apps:hover {
+    color: #333;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#logo {
+    margin-top: 20px;
+}
+
+#search {
+    margin: 15px;
+    border: 1px solid #ccc;
+    height: 35px;
+    width: 620px;
+    padding: 5px;
+}
+
+.button {
+    height: 36px;
+    margin: 15px 5px;
+    padding: 0 15px;
+    display: inline-block;
+    background: #f1f1f1;
+    color: #777;
+    border: 1px solid #f1f1f1;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+    background: -moz-linear-gradient(top, #f8f8f8, #f1f1f1);
+    background: -p-linear-gradient(top, #f8f8f8, #f1f1f1);
+    background: linear-gradient(top, #f8f8f8, #f1f1f1);
+    color: #222;
+    border: 1px solid #ccc;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: #f1f1f1;
+    padding: 12px 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-left {
+    float: left;
+    margin-left: 15px;
+}
+
+.footer-right {
+    float: right;
+    margin-right: 15px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #666;
+    font-size: 13px;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    color: #333;
+}
